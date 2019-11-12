@@ -14,7 +14,7 @@
 
 
 
-        <Storyboard x:Key="days">
+        <Storyboard x:Key="days" RepeatBehavior="Forever">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="day">
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-32.917"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6" Value="26.899"/>
@@ -23,6 +23,159 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:15" Value="192.311"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:18" Value="231.265"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:21" Value="270"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="sunday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-174.829"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="sunday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-69.32"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="sunday">
+                <EasingColorKeyFrame KeyTime="0" Value="#FFA2CCD1"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="sunday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <PointAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="sunday">
+                <EasingPointKeyFrame KeyTime="0" Value="0.507,0.871"/>
+            </PointAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="monday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-25.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="monday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-34"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="monday">
+                <EasingColorKeyFrame KeyTime="0" Value="#FFAFFFCC"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="monday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="monday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.872"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="monday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.812"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="monday_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="132"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="monday_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-11"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="monday_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.926"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="monday_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.592"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="monday_Copy1">
+                <EasingColorKeyFrame KeyTime="0" Value="#FFECF3A5"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="monday_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="monday_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-129.723"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="monday_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="234.227"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="monday_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="2.194"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="monday_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.681"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="monday_Copy">
+                <EasingColorKeyFrame KeyTime="0" Value="#FFFDCCCC"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="monday_Copy">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="monday_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-321.465"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="monday_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="161.123"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="monday_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="15"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="monday_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-353.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="monday_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-81.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="monday_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-291"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="monday_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.594"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="monday_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.597"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="monday_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.193"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="monday_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.949"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="monday_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="22.899"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="monday_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-41.164"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="monday_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.389"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="monday_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="29.064"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="monday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="62.408"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="sunday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="2.29"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="sunday">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.659"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="monday_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-39.21"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="monday_Copy2">
+                <EasingColorKeyFrame KeyTime="0" Value="#FFD2D2FF"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="monday_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="monday_Copy3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="monday_Copy4">
+                <EasingColorKeyFrame KeyTime="0" Value="#FFF5C6F1"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="monday_Copy4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <PointAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="monday_Copy">
+                <EasingPointKeyFrame KeyTime="0" Value="-0.415,0.449"/>
+            </PointAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="calendar">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.665"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="calendar">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.702"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="calendar">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-64"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="calendar">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-67"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
 
@@ -61,5 +214,93 @@
             </Grid>
 
         </Border>
+        <Button x:Name="sunday" Content="" Click="SundayClick" HorizontalAlignment="Center" VerticalAlignment="Center" Height="62" Margin="356,-128,0,0"  Width="138" RenderTransformOrigin="0.5,0.5" Background="#FFDDDDDD">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                    
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="monday" Content="" Click="MondayClick" HorizontalAlignment="Center" Height="62" Margin="356,-128,0,0" VerticalAlignment="Center" Width="138" RenderTransformOrigin="0.5,0.5" Background="#FFDDDDDD">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="monday_Copy1" Content="" Click="TuesdayClick"  HorizontalAlignment="Center" Height="62" Margin="356,-128,0,0" VerticalAlignment="Center" Width="138" RenderTransformOrigin="0.5,0.5" Background="#FFDDDDDD">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="monday_Copy" Content="" Click="WednesdayClick" HorizontalAlignment="Center" Height="62" Margin="356,-128,0,0" VerticalAlignment="Center" Width="138" RenderTransformOrigin="0.5,0.5" Background="#FFDDDDDD">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="monday_Copy2" Content="" Click="ThursdayClick" HorizontalAlignment="Center" Height="62" Margin="356,-128,0,0" VerticalAlignment="Center" Width="138" RenderTransformOrigin="0.5,0.5" Background="#FFDDDDDD">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-175.465" Y="463.123"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="monday_Copy3" Content="" Click="FridayClick" HorizontalAlignment="Center" Height="62" Margin="356,-128,0,0" VerticalAlignment="Center" Width="138" RenderTransformOrigin="0.5,0.5" Background="#FFDDDDDD">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="monday_Copy4" Content="" Click="SaturdayClick" HorizontalAlignment="Center" Height="62" Margin="356,-128,0,0" VerticalAlignment="Center" Width="138" RenderTransformOrigin="0.5,0.5" Background="#FFDDDDDD">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Calendar x:Name="calendar" HorizontalAlignment="Left" Margin="42,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Calendar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Calendar.RenderTransform>
+        </Calendar>
+        <RichTextBox Name="textbox" HorizontalAlignment="Right" Height="144" Margin="660,386,0,0" VerticalAlignment="Bottom" Width="108">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Please Write your  daily work and press button"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
     </Grid>
 </Window>
